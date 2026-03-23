@@ -1,0 +1,37 @@
+# Generated files
+bin/
+gen/
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+.idea/
+
+*.iml
+*.iws
+*.ipr
+
+*.DS_Store
+apache
+unused.txt
+
+/captures/
+
+.DS_Store
+VWOKeystore
+
+# Security - Keystore files (should not be committed)
+*.keystore
+*.jks
+debug.keystore
+debugKey.jks
+
+# Firebase configuration (contains sensitive project info)
+google-services.json
+GoogleService-Info.plist
