@@ -19,7 +19,8 @@ This demo app demonstrates how to integrate VWO Insights into an Android applica
 ### Prerequisites
 
 - **Android Studio:** Latest version (Ladybug or later recommended)
-- **JDK:** Version 17 or later
+- **JDK (for Gradle sync):** Version 17 recommended (Java 21 is not compatible with Gradle 8.0 in this project)
+- **Gradle Wrapper:** 8.0 (configured via `gradle/wrapper/gradle-wrapper.properties`)
 - **Minimum Android SDK:** API 21 (Android 5.0)
 - **Target Android SDK:** API 35 (Android 16) or latest available
 - **VWO Insights Account:** [Sign up at VWO](https://vwo.com)
@@ -194,6 +195,13 @@ To build a release version:
 
 ```text
 Solution: File → Invalidate Caches → Invalidate and Restart
+```
+
+**Problem:** Incompatible Java and Gradle versions (for example, Java 21 + Gradle 8.0)
+
+```text
+Solution: Set Gradle JDK to Java 17 in Android Studio:
+Settings → Build, Execution, Deployment → Build Tools → Gradle → Gradle JDK
 ```
 
 **Problem:** SDK version mismatch
