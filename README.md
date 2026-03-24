@@ -242,4 +242,4 @@ We maintain a [Code of Conduct](https://github.com/wingify/vwo-insights-mobile-a
 
 [Apache License, Version 2.0](https://github.com/wingify/vwo-insights-mobile-android-demo/blob/main/LICENSE)
 
-Copyright 2025 Wingify Software Pvt. Ltd.
+Copyright 2026 Wingify Software Pvt. Ltd.
