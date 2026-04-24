@@ -107,7 +107,7 @@ dependencies {
     implementation "androidx.vectordrawable:vectordrawable:$support_library"
 
     // VWO Insights SDK
-    implementation 'com.vwo:insights:2.1.3'
+    implementation 'com.vwo:insights:2.1.4'
 
     // ZIP with PASSWORD
     implementation "net.lingala.zip4j:zip4j:2.11.2"
